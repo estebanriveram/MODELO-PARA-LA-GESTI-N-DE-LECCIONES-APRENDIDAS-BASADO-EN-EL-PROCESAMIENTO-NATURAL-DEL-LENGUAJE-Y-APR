@@ -1,0 +1,636 @@
+Time,event_id,event_type,abstract,safety,event_narrative
+7/17/1996,437,Aeronautics Research," Oversized mounting screws caused apparent damage to capped inserts in a Voyager transponder. When designing or reworking hardware employing capped inserts, it is critical to verify that correct screw lengths are specified and used. ",TRUE, Oversized mounting screws can damage capped inserts. 
+7/17/1996,436,Aeronautics Research," A Voyager telemetry failure was attributed to over-length screws that caused conductive end-caps to contact areas not sufficiently coated by conformal coating. The lesson provides recommendations for design of captivated inserts, QA monitoring of assembly, application of conformal coatings, and planning of ground activities. ",TRUE," Effects of both plus and minus component tolerances must be examined in design. 
+
+     Telemetry measurements can be used to detect imbalances between the chassis-supply and chassis-return voltages, such as would be caused by the original Voyager short. "
+7/17/1996,435,Aeronautics Research," A SEASAT-A subassembly was damaged during thermal-vacuum test due to the configuration of GSE test equipment. A reed relay in a commercial data scanner was connected to circuits requiring +5 volts; its failure permitted the SEASAT-A circuits to be exposed to scans as high as 31 volts. 
+
+     It is important to assess the design of commercial support equipment and consider what a failure of an internal part might do to the flight hardware.  
+     ",TRUE," The problem was caused by using a commercial piece of equipment without looking into its internal nature and considering what a failure in an internal part might do to the flight equipment. Previously, the SAR Transmitter had been tested at the contractor's facility, using the same set-up, with no problem. "
+7/17/1996,434,Aeronautics Research," During the Viking program, rust spots were observed on the gold-plated Kovar lids of a number of flat pack ICs. The cause was suspected to be chlorine from the lead tinning operation, and various polymeric coatings failed to prevent further corrosion. 
+
+     Following the use of any chlorinated product, a thorough and complete cleaning to remove all residual chlorine contamination is a necessity.  
+     ",TRUE," Corrosion, once started, is extremely difficult to stop. "
+7/17/1996,433,Aeronautics Research," Voyager's discovery of defective component lots in welded module assemblies led to a re-procurement of the flight relays. For procurement of parts with a prior history of problem/failures, evaluate the design and workmanship of the current production and determine the need for JPL inspections and special screening tests. ",TRUE," The discovery of defective component lots in welded module assemblies or at any point subsequent to completion of flight hardware fabrication results in major program impacts. There are unavoidable schedule slips due to the re-procurement and replacement of parts and welded modules. Flight hardware quality is jeopardized by the resulting rework and retest effort. 
+
+     The pre-cap visual inspection alone on a densely packed relay provides little insight into the quality of its individual subassemblies. Screening tests are not 100% effective in elimination of defective units. "
+7/15/1996,430,Aeronautics Research," During fabrication of the TIROS-N Microwave Sounding Unit, connector cleaning fluids penetrated to the interior of the chassis. This caused severe swelling of the conformal coating material and the subsequent fracture of electronic components, dissolution of polyurethane insulation on the magnet hookup wire, and removal of component identification markings. To preclude detrimental results, care should be exercised in the selection of fluids to be used with or in the presence of polymeric and elastomeric materials. ",TRUE, Most polymeric and elastomeric materials are permeable and are subject to swelling and solvent-stress-cracking when exposed to some fluids. 
+7/15/1996,429,Aeronautics Research," In the process of reflow soldering flat pack leads to printed circuit boards during the Voyager program, it was discovered that a high phosphorous content in the plating process for the Kovar leads can weaken solder joints. Evaluate the effects of phosphorus when soldering or welding nickel plated surfaces. ",TRUE, A high phosphorous content in the plating process can weaken solder joints. 
+7/12/1996,426,Aeronautics Research," To prove that electrical connections were properly made, a test of motor control circuits was included after fueling and pressurization of tanks. Had slightly higher pressure been present in the fuel tanks when the pilot valve for the motor control was activated, rocket firing could have injured observers and destroyed the spacecraft. Functional tests must be carefully screened against a standing policy that at least two protective elements are included to prevent irreversible action. ",TRUE, Functional tests must be carefully screened against a standing policy that at least two protective elements are included to prevent irreversible action. 
+7/12/1996,428,Aeronautics Research," In selecting squibs stored from the Viking Orbiter 1975 program for use in the Voyager 1977 mission, it was found that moisture sealed within the squibs at the time of manufacture had combined with the boron ignition mix to produce boric acid and corrosion. The manufacture of hermetically sealed squibs must preclude the presence of moisture prior to hermetic sealing. Flight quality squibs in bonded storage must receive periodic resistance checks to detect degradation. ",TRUE, The manufacture of hermetically sealed squibs must preclude the presence of moisture prior to hermetic sealing. 
+7/10/1996,424,Aeronautics Research," Shortly after the launch of Voyager, unexpected dynamic effects necessitated additional orbit determination analysis, testing, and modeling to ensure an accurate trajectory. Perform careful coordinated pre-flight analysis to determine the impact of such effects as torques induced by solar pressure and gas impingement on the spacecraft structure. Design and test to avoid impingement problems. ",TRUE, Orbit determination complexity is increased significantly when translational accelerations from the attitude control system must be accounted for. 
+7/10/1996,422,Aeronautics Research," Following a Viking Orbiter pyrotechnic-actuated event, debris was viewed by the star tracker as numerous bright objects, initiating a command to change the spacecraft roll position. During and following a pyrotechnic event, place the spacecraft in roll inertial and disable any Canopus-loss fault protection software. ",TRUE," Always take the precaution of placing the spacecraft in roll inertial and disabling any Canopus-loss fault protection software at and following a pyrotechnic event. At these times particles are shocked loose from parts of the spacecraft, from whence they drift through the Canopus tracker field of view. "
+7/10/1996,425,Aeronautics Research," Though necessary to support mission objectives, the Voyager Ground Data System and Mission Operations System design accommodated very limited real-time commanding. Correcting this required difficult modifications, and the real-time command generation capability still had limitations. Several recommendations are offered to assure that real-time commanding requirements receive careful consideration early in mission design. ",TRUE, Careful determination of real-time commanding requirements must be made early in mission design. 
+7/8/1996,418,Aeronautics Research," Since Galileo used inherited Voyager transponders, the mission also inherited the problem that an uplink carrier suppression that is optimal for command purposes tends to degrade X-band telemetry. The lesson describes link accommodations successfully implemented by both Voyager and Galileo. ",TRUE,"With a strong uplink, the command performance requirements can be met with much less than optimum uplink carrier suppression.  
+
+        Some phases of a mission may not require a two-way coherent link.  
+
+        Changes in link configuration require verification through end-to-end performance tests.  
+      "
+7/8/1996,420,Aeronautics Research," The pressure regulator in the Viking Orbiter Propulsion Subsystem started leaking following a pyro firing that occurred prior to the near-Mars TCM. Likely causes were corrosion or residue from propellant migration or pyro valve blowby, or particulate contamination. Recommendations included using separate regulators for the fuel and oxidizer sides, incorporating a bellows in the pyro valve to eliminate blowby, and adding a isolation valve between the regulator and propellant tank. ",TRUE, The micro-scale effects of long-term propellant exposure should be investigated in order to better critique regulator design. 
+7/8/1996,421,Aeronautics Research," The Voyager II Science Boom failed to indicate, by microswitch, that it had deployed completely. The design of deployment mechanisms should consider susceptibility to jamming by foreign objects. Deployment clearance verification testing should be repeated if any related changes are incorporated. ",TRUE," Ideally, deployment verification procedures should be performed on a completely assembled spacecraft subsequent to its final buildup. Mocked-up areas of critical clearance may be used, but their use introduces some risk. "
+7/8/1996,419,Aeronautics Research, The SEASAT-A Synthetic Aperture Radar system end-to-end gain was instable due RF leakage that varied with the sensor gain state and with temperature. Use of prototype models and diagnostic RF system analysis and modeling are effective in identifying microwave design susceptibilities to RF leakage. ,TRUE, Test programs must be designed to uncover operating problems. 
+7/1/1996,415,Aeronautics Research," During final flight acceptance testing, an RF breakdown in an exciter revealed that its design was subject to RF breakdown at critical pressure. Costly design modifications late in the program were required to correct the design. All RF transmitter components and circuits should be analyzed and tested to determine their performance margin to any kind of RF breakdown. The lesson specifies the minimum margins. ",TRUE,"All RF transmitter components and circuits should be analyzed and tested to determine their performance margin to any kind of RF breakdown.  
+
+        As a goal, all components and circuits should be designed to have a margin equal to a factor of four in power or a factor of two in voltage (6dB) against breakdown.  
+      "
+7/1/1996,417,Aeronautics Research," Voyager circuit design verification showed that capacitors that were appropriate for use at atmospheric pressures, contained voids that could lead to corona and possible failure in space. This deficiency might not have shown up during testing. The possibility of critical pressure must be eliminated from all circuit parts capable of causing corona or arcing. Testing should not be relied on to catch all design weaknesses. ",TRUE,"Standard circuit designs or parts which operate well at atmospheric pressure need to be verified for vacuum.  
+
+        Circuit changes to solve other problems may induce their own problems. The original problem was an instability in the TWTA power supply caused because the TWT reacted as a negative impedance load, and the power supply helix output voltage was fed back to control the voltage regulator. This problem was corrected by special focusing of the TWT's to minimize their negative load impedance characteristics and by adding a voltage doubler circuit to reduce the power supply's helix voltage output impedance. The changes that corrected the instability problem produced the large AC component on the high-voltage capacitors.  
+      "
+7/1/1996,416,Aeronautics Research," Qualification testing at extreme cold temperatures found that noise could be generated from the minute differential expansion between semi-rigid aluminum coaxial cables and their attached stainless steel shells. Beware of the intermodulation product phenomenon, and test for it during antenna subsystem pre- and post-environmental tests, after antenna installation on the spacecraft, and prelaunch. ",TRUE, Maintain a rigorous test program for detecting intermodulation products all the way up to launch. This would involve the use of a two-signal intermodulation test-set to assure that coaxial connectors or other components with contacting metal surfaces do not generate intermodulation products. 
+6/26/1996,411,Aeronautics Research, Inflight checkout of the Viking Lander relay link transmitter posed the risk of overloading and zenering input transistors in the Orbiter relay receiver. A system design must include requirements for &ldquo;testability&rdquo; and inflight test requirements should be considered in selection of telemetry data points. ,TRUE,"A system design must include requirements for ""testability.""  
+
+        Test requirements may create ""abnormal"" operating modes which are easy to overlook during the design of individual elements of a system.  
+
+        Accurate analysis of the coupling of RF energy between systems physically close to one another, over other than free-space paths, may be intractable, particularly in the presence of adjacent ""structure.""  
+      "
+6/26/1996,414,Aeronautics Research," Because two RF transistors were overdriven, Mariner 9 exciter RF output showed slow and continual degradation throughout the mission. Short-term tests of RF circuits may not be sufficient to rule out zenering, and testing may be complicated by &ldquo;healing&rdquo; during the off period. ",TRUE," The worst-case analysis of all radio frequency circuits must include verification that transistors have sufficient margin to emitter-to-base zenering. Zenering can also occur in circuits, other than RF, if the emitter-to-base breakdown voltage is exceeded. 
+
+     Inflight variables, such as temperature and operating mode, make the assessment of degradation of this type extremely difficult after launch. "
+6/26/1996,413,Aeronautics Research," Because the Viking Orbiter power switching relays were arranged in a matrix, two relays could under certain conditions be inadvertently actuated when only one was commanded. A system control protocol should be established whereby independently requested relay actuations are executed in a predictable manner. ",TRUE, Relay matrices should be designed to prevent actuation of additional relays caused by multiple relays being commanded simultaneously. 
+6/26/1996,412,Aeronautics Research," Because, the interface circuit between the Voyager CCS and Power subsystems was not electrically isolated, spacecraft system noise prevented reliable commanding from CCS to Power. This was not discovered until system-level test, and circuit modifications were difficult. Lesson recommendations pertain to system level requirements, design, and early compatibility testing for interface circuits. ",TRUE, The system test phase is too late to discover hardware interface incompatibilities after subsystems have completed qualification testing. 
+6/24/1996,407,Aeronautics Research," The composite pattern of two Helios I low-gain antenna elements caused an &ldquo;interferometer effect&rdquo;, with rapidly varying phase and amplitude values occurring over a small but critical portion of the antenna pattern. Design of spacecraft antennas must include careful attention to amplitude and phase characteristics of the combined antenna system pattern, rather than to those of the individual elements alone. ",TRUE," Design of spacecraft antennas must include careful attention to amplitude and phase characteristics of the combined antenna system pattern, rather than to those of the individual elements alone. Communication link analysis must use sufficiently accurate approximations to the actual expected (or measured) antenna system patterns. "
+6/24/1996,410,Aeronautics Research, Mutual interference among the two Viking Orbiters and the two Viking Landers caused a loss of downlink carrier lock and telemetry data several times during the Viking extended mission. The Viking experience showed that the types and magnitude of interference can be adequately analyzed (or determined by test) and that the resulting operational constraints can be adequately specified. ,TRUE,"The situation of two deep space vehicles in the same ground station antenna beamwidth results in possible mutual RF interactions not present with ordinary single-spacecraft tracking.  
+
+        The Viking experience showed that the types and magnitude of interference can be adequately analyzed (or determined by test) and that the resulting operational constraints can be adequately specified.  
+      "
+6/24/1996,409,Aeronautics Research," Because the Voyager 2 failure protection logic was unnecessarily enabled during launch, transient gyro outputs triggered a series of alarming &ldquo;gyro swaps.&rdquo; Careful attention should be given to preclude the possibility of spurious inputs triggering unwanted events when the protection logic is enabled. ",TRUE, It is suggested that failure protection logic be enabled only when the protected components or subsystems are required for spacecraft operation. Careful attention should be given to preclude the possibility of spurious inputs triggering unwanted events when the protection logic is enabled. 
+6/24/1996,408,Aeronautics Research," Mariner'71 testing was delayed when replacement of one blown fuse required the removal of a module containing other fuses necessary to the safe testing of the spacecraft, thereby postponing further testing on all the affected components. Located fuses in the fused devices instead of concentrating them in the power subsystem does leave the cabling unprotected by the fuses, but the reliability of the cabling is so high that this lack of protection is usually well justified. ",TRUE," Fuses should be located within the device being fused, rather than concentrating them within the power subsystem. "
+6/18/1996,406,Aeronautics Research,,FALSE," It is essential for unspent fuel being exhausted through vent lines to be kept as free of oxygen as possible. In the case of this mishap, it was found that air was being intrained in the vent system via an undetected rupture disc vaccuum break. This air, which liquified after ""puddling"" in vent line low points, in combination with the routinely vented gaseous hydrogen, and a flame front emanating from a downline flare stack created an overpressurization event which thereby compromised the piping. "
+6/1/1996,547,Aeronautics Research,,FALSE, Worst-case thermal analyses must include locked-rotor conditions of any moving parts. 
+5/20/1996,566,Aeronautics Research,,FALSE," The TSS-1R Mission Failure Investigation Board made several observations in the course of the investigation. Among these are that: 
+
+      
+        the tether failure is not indicative of any fundamental problem in using electrodynamic tethers;  
+
+        there was a significant amount of scientific data secured from the flight, before the tether separated;  
+
+        the science, engineering and support teams were highly competent, motivated, and committed to the experiment;  
+
+        electrostatic charge build-up could be an issue in the future;  
+
+        the documentation provided by the project to the Board was appropriate;  
+
+        the tether configuration was affected by the winding loads on the reel;  
+
+        the load paths of the composite tether are complex;  
+
+        closed areas with a favorable pressure-distance combination (Paschen's Law) can cause arcing if not vented.  
+      
+    The TSS-1R Mission Failure Investigation Board finally observed that the long time span between the fabrication of the hardware and the flight missions increased the exposure of the hardware to contamination and damage.  
+      "
+5/1/1996,537,Aeronautics Research,,FALSE, The best O-ring seal is attained with a commercial O-ring or one with a 45&deg; angle joint. Do not assume that a fabrication shop will put a 45&deg; joint in automatically -- they may have no way of knowing that you are going to use it for vacuum use. 
+5/1/1996,538,Aeronautics Research,,FALSE, Soft items which do not seem capable of creating interferences may actually lead to crucial conflicts which are only caught in assembly or testing because they were not shown on assembly drawings. 
+5/1/1996,539,Aeronautics Research,,FALSE, Everything that is accessible to astronauts or ground crew must have safeties designed in to guard against inadvertent activation. 
+5/1/1996,536,Aeronautics Research,,FALSE," Clean room certified adhesive tape 5413 looks just the same as clean room certified adhesive tape 1205, but 5413 contains a silicone-based adhesive that is not compatible with vacuum work. 1205 has an acrylic adhesive that can be baked to reduce outgassing. "
+4/26/1996,404,Aeronautics Research," When commanded to switch on, TWTA No. 1 on Viking Lander 2 failed to produce an S-band RF downlink, probably due to RF breakdown of the high-voltage power converter. High-voltage circuits designed to operate within the Martian atmosphere require special design precautions, such as insulation from ground potential, to avoid corona or other forms of high-voltage breakdown. ",TRUE, High-voltage circuits designed to operate within the Martian atmosphere require that special design precautions be taken to avoid corona or other forms of high-voltage breakdown. 
+4/26/1996,405,Aeronautics Research," Unlike explicit commands, stepping or incremental commands, however, simply cause the device to move by the commanded increment from its current position to the new position. If the current position is incorrect, the next position and all subsequent positions will be incorrect. The use of explicit commands is recommended whenever no significant operational advantage exists using incremental commands. Should an incremental command capability be desired for other reasons, the system design should consider also implementing the explicit command capability to ensure fault tolerance. ",TRUE," All commands, whether stepping or explicit, have within them a potential for error. However, since explicit commands do not depend on the success of previous commands to be successful, they tend to be ""fault-tolerant,"" in the sense that they do not perpetuate errors in the command sequence. "
+4/19/1996,402,Aeronautics Research," Multi-year storage and aging of solder plated terminals for TOPEX and ASTROS circuit boards affected their solderability. Consider aging and solderability factors, and perform solderability tests, before installing solder plated terminals. ",TRUE,"Solder plated brass terminals have a limited shelf life after initial manufacture or reprocessing.  
+
+        Surface deterioration may set in after approximately two years in an air ambient environment.  
+
+        Failure to take aging and solderability factors into account before installing solder plated terminals may have serious consequences.  
+      "
+4/1/1996,543,Aeronautics Research,,FALSE, An EMI filter may not perform as well when it is not matched with the power converter it is meant to operate with. 
+4/1/1996,548,Aeronautics Research,,FALSE," All Shuttle middeck payloads have to have the habitable compartment offgassing test done on them (LaRC payloads MACE, GPPM, MIDAS had this done at White Sands) -- check with JSC Safety if unsure. It is possible to send a mock-up unit only, that only includes the same non-metallics as are in the flight payload, but does not have to be operational. "
+4/1/1996,546,Aeronautics Research,,FALSE," Even if pressure changes will be extremely small, have vent holes designed in everything by CDR. "
+4/1/1996,544,Aeronautics Research,,FALSE," When you have a part that is a possible suspect for EMI, always test it separately for EMI as early as possible, rather than waiting and testing the whole payload and finding out then that you have to change one component. This can be an informal test in a local facility, and not require money, excessive procedures, or time. "
+4/1/1996,542,Aeronautics Research,,FALSE," It is possible to not have a 5:1 ratio of N2 to O2 in a vacuum chamber that has a steady leak, when there is a cryopump running that will preferentially pump the O2. "
+4/1/1996,545,Aeronautics Research,,FALSE," If a system is baked with the ion pump off, the contaminants driven off of the chamber walls during baking may be driven into the pump, and it will then take quite a while to be able to restart it. If the system is not baked sufficiently, then the act of turning on a vacuum ion gauge will drive so much water off the walls of the chamber and gauge that the ion pump may not be able to continue running. "
+2/1/1996,541,Aeronautics Research,,FALSE," If a complete tally of all vacuum loads is not done before a pump is selected, the pump chosen may be over- or under-powered for the job. "
+2/1/1996,540,Aeronautics Research,,FALSE," If you do not specify on your purchase order for hermetic connectors, it is possible that they will be shipped with the inserts loose. "
+1/1/1996,427,Aeronautics Research," A crack in an RF circuit ceramic substrate was revealed by a potentially mission catastrophic loss of output power during thermal-vacuum test of a sensor module. This crack was due to substrate weakening caused by use of a dental drill used for circuit tuning (by removing conductor material) during the final amplifier assembly process. Microwave RF circuit design that involves the practice of flight unit tuning by removal of conductive material, such as by use of abrasive or cutting tools, should be compatible with the substrate and circuit material, the packaging design, and other relevant factors. The Lesson Learned and Recommendations section in this 1977 lesson learned were revised in 2006 to reflect current practice in the use of abrasive and cutting tools to tune RF circuits. ",TRUE," The tuning of RF circuits using abrasive or cutting tools to remove conductive material from the boards may cause mission critical damage that is not easily detectable.
+ "
+10/11/1995,360,Aeronautics Research,,FALSE," The loss of air data from a single-string Pitot-static source due to icing or foreign object damage, can result in a departure from controlled flight (and possible catastrophic loss of aircraft) in aircraft which are inherently unstable and dependent on air data for dynamic stability. "
+10/11/1995,361,Aeronautics Research,,FALSE," In the case of an over land ejction and depending on pilot/payload weight, the 17 foot diameter main parachute in the F-18 egress system can allow a sufficiently high descent rate as to make parachute landing fall injury highly probable. "
+10/11/1995,359,Aeronautics Research,,FALSE," Even in normally dry, temperate environments, humidity/temperature conditions at flight altitude can be such as to result in icing of the Pitot-static probe if a heater is not provided. "
+9/17/1995,457,Aeronautics Research,,FALSE," Low hazard systems must be addressed by supporting safety engineering analyses (failure modes and effects, hazard analysis, etc.) to identify vulnerabilities at the interface with high hazard systems. Such analyses will identify the need for additional and/or modified controls. "
+9/17/1995,458,Aeronautics Research,,FALSE,"Coordination of discrete operations in a facility is needed to preclude the deactivation of required emergency systems especially during a hazardous operation or test activity.  
+
+        Coordination must be an integrated process involving at least one person knowledgeable in the facility's planned day to day operations.  
+      "
+6/14/1995,466,Aeronautics Research,,FALSE, Nozzle aging experience indicates nozzles can have age related problems. 
+6/14/1995,467,Aeronautics Research,,FALSE," If the check valve on the Centaur RL10 rocket fails to close, an ingestion of air can occur. Solidification of this air will prevent the engine turbopump from rotating causing engine failure. "
+6/13/1995,465,Aeronautics Research,,FALSE, Manufacturers' Recommendations for crimped connector settings are not always correct and can result in inadequate crimp conditions. 
+6/13/1995,472,Aeronautics Research,,FALSE, Electrical connector contacts with replaceable pins or sockets may not function properly from damage caused by the mating processes. 
+6/13/1995,471,Aeronautics Research,,FALSE, Fluid filters can be a source of contamination if they are dirty or fail structurally. 
+6/12/1995,464,Aeronautics Research,,FALSE, Payload activation may require considerably more time than the pre-mission scheduled time to allow for the crew to acclimate to zero-g. 
+6/12/1995,478,Aeronautics Research,,FALSE," Friction is not sufficient to maintain precise alignments of mechanical attachment-type joints during any type of loading, especially launch loads. "
+6/12/1995,447,Aeronautics Research,,FALSE, Components may have anomalies that are within specification and which later become the source of other problems. 
+6/12/1995,477,Aeronautics Research,,FALSE, Modification of IRT fan blades can result in more accurate data or higher test section airspeeds. 
+6/12/1995,476,Aeronautics Research,,FALSE, Insufficient amount of time given to the payload crew to perform initial experiments in Zero-G can result in incomplete experiments. 
+6/12/1995,446,Aeronautics Research,,FALSE, Insufficient notification of the latest flight procedure changes to the KSC-Payloads Group can lead to inaccurate tracking of Spacelab's configuration following landings. 
+6/8/1995,401,Science, An extended Voyager mission was feasible due to engineering improvements that permitted the use of redundant hardware to enhance science return. ,TRUE,"A spacecraft design which enables the implementation of an image motion compensation capability can make possible extremely long image exposures while minimizing image smear.  
+
+        Spacecraft system architecture and subsystem implementations which allow utilization of redundant elements for operational elements during critical periods of the mission are key to enabling expanded spacecraft mission operations. These redundant elements can be utilized even though the prime elements remain operational.  
+
+        Maintenance of a complete flight software development and validation capability during the mission, to allow utilization of the designed spacecraft software flexibility after launch, will enable significant enhancement of science data return.  
+      "
+6/8/1995,400,Science," As Mariner 10 approached Venus encounter, an uncontrolled oscillation occurred due to spacecraft structural interaction with the Attitude Control Subsystem. The result was a severe consumption of control gas that would have caused failure of the mission had it continued. The recommendations center on design and operational measures to cope with subtle and complex dynamical interactions between the spacecraft structure and the ACS. ",TRUE, Spacecraft structural dynamical interactions with the Attitude Control Subsystem can be very subtle and complex. 
+6/7/1995,397,Science," While on the launch pad, Viking experienced an anomalous power turn-on that resulted in a total discharge of the spacecraft batteries. Failure analysis had not detected that discrete failure of a relay located in support equipment could have caused the problem. All interfaces with the spacecraft should be subject to failure mode analysis, status indicators or alarms should be used, and the spacecraft should not be left unattended unless periodic monitoring is conducted. ",TRUE,"Failure mode analysis can disclose potential fault scenarios and indicate prudent preventive action.  
+
+        Periodic monitoring of spacecraft can provide detection of anomalous conditions.  
+      "
+6/7/1995,399,Science," During arc welding of a Galileo propulsion fuel line, an arc to the spacecraft caused an uncontrolled transient pulse of current that flowed through portions of the spacecraft structure and electronics. The potential for anomalies to introduce transient currents prompted recommendations involving interface design, planning of welding operations, and evaluation of electrical and insulation characteristics. ",TRUE,"The complicated thermal and mechanical interface design of the RPM forced welding assembly and disassembly operations into a confined area, leading directly to a hazardous operation.  
+
+        Unforeseen anomalies can introduce uncontrolled transient pulses of current into mechanisms which are not designed to conduct electricity.  
+      "
+6/7/1995,396,Science," Shortly after transmitter turn-on, SIR-B suffered a radiated power drop. After Shuttle landing, troubleshooting discovered a sliver of metal embedded in the center conductor of the GFE antenna cable. For critical GFE components, obtain copies of the test procedures and the test data; perform RF breakdown and end-to-end system tests. ",TRUE,"Review and verification of test procedures and test data from critical components supplied as GFE by other organizations ensures that project testing requirements have been met.  
+
+        RF breakdown tests on RF generation or amplification and antenna feed system components provide assurance that the components meet flight operational requirements.  
+
+        End-to-end system tests are particularly critical if the system includes data generation and data flow.  
+      "
+6/7/1995,398,Science," After rework of a Galileo subsystem, it was discovered that the size of PWB traces in a subsystem power supply had the effect of limiting voltages elsewhere in the system. The problem was corrected by adding conductors in parallel with the traces. 
+
+     Subsystem design analysis must consider all aspects of the end-to-end implementation, and subsystem testing must duplicate all aspects of the flight system configuration that could affect subsystem performance.  
+     ",TRUE, The trace size of subsystem printed wiring board conductors can affect system level voltages. 
+6/6/1995,395,Science," Before the first Mercury encounter, the MVM'73 high gain antenna suddenly lost 3 dB in gain and changed from circular to linear in polarization. It was suspected that either particles or chips left in the S-band feed cavity after antenna assembly caused a short circuit, or a combination of tolerance build-up and thermal effects caused a dimensional change. Worst case analysis should be preformed on any equipment suspected to be sensitive to assembly practices or tolerance build-up. ",TRUE,"A worst case analysis could have predicted potential performance anomalies of equipment susceptible to tolerance build-up.  
+
+        During critical spaceflight events it proved to be extremely valuable to have the original development engineers committed and available to assist in any in-flight anomaly analysis and correction.  
+      "
+5/30/1995,391,Science," The Galileo mission twice experienced difficulties with recovery from safing errors due to a lack of a formal safing recovery plan and to software/documentation that had not been kept current on spacecraft states. Maintain and update an anomaly recovery plan, log spacecraft event updates, take care in reusing previously successful command packages, and identify nonstandard ground system configurations. ",TRUE," No formal safing recovery plan existed. Coupled with an ambitious deadline for recovery completion, this resulted in inadequate review, inspection, checking and testing of the recovery package.  
+
+        Documentation relating to pre-fault and post-fault spacecraft states was not kept current, and the configuration management system to log updates to system fault protection changes was lacking.  
+
+        Spacecraft state is not always easy to identify and errors in spacecraft state determination are possible. This caused some confusion during this event.  
+
+        Software packages that have worked in the past could prove to be faulty or inappropriate for the current spacecraft state.  
+
+        It is risky to depend on nonstandard ground system configurations in constructing commands.  
+      "
+5/30/1995,394,Science," Near the end of the Voyager 2 Saturn encounter, the scan platform azimuth actuator seized, causing a scan platform pointing error that resulted in a loss of some data. Recommendations involved the need for life cycle testing of critical rotating mechanical equipment, and attention to factors that could cause increased drive torque requirements for rotating elements used in a space environment. ",TRUE," Life cycle testing of rotating mechanical equipment used in a space environment can aid in design verification, and can enable analysis of in-flight faults. "
+5/30/1995,393,Science," A failure in the ATMOS instrument laser was attributed to a pressure loss caused by use of machine screws of excessive length in a modified housing. Sealed flight equipment requiring container integrity should be designed to provide continuous passive indication of leaks. When modifying equipment, ascertain that the as-built configuration is understood. ",TRUE,"Failure to provide verification of seal integrity of pressurized containers can result in failure of flight equipment.  
+
+        All flight equipment modifications require evaluation of resulting configuration changes.  
+      "
+5/15/1995,961,Exploration Systems,,FALSE, Avoiding overcomplexity of component test facilities prevents many potential engine component failures. 
+5/15/1995,966,Exploration Systems,,FALSE, Fuel system oscillations can be reduced during the startup phase by closely controlled engine priming sequence. 
+5/15/1995,964,Exploration Systems,,FALSE, Dry gaseous purges in a start preparation phase will aid in obtaining a reliable start sequence. 
+5/15/1995,962,Exploration Systems,,FALSE, The use of computer models to depict transient behavior helps to characterize critical startup and operational parameters. 
+5/15/1995,960,Exploration Systems,,FALSE, The use of an Integrated Subsystem test Bed and Full Engine Testing in preference to individual component testing speeds up the development process and produces a high reliability engine that takes into account subsystem interactions. A special engineering and management team is required to integrate the components and to plan the test program. 
+5/15/1995,967,Exploration Systems,,FALSE," Instrumented ""safety checks"" at critical points in the startup and operational procedures ensure proper engine system priming. "
+5/15/1995,965,Exploration Systems,,FALSE, Recirculation flows of propellants can be used to pre-chill turbopumps to cryogenic temperatures and to eliminate gas pockets in the propellant feed system. 
+5/15/1995,963,Exploration Systems,,FALSE, Exploration of engine start sequences in small time increments provides reliable start cycles. 
+3/27/1995,947,Exploration Systems,,FALSE, An interference fit is required between case and nozzle insulation to prevent hot gas leakage between the insulation that could reach the joint's metal parts. 
+3/27/1995,958,Exploration Systems,,FALSE," External joint insulation and sealing, (coupled with the field joint heater) is required to maintain field joint ""O"" rings at a 75&deg; F minimum temperature, and to prevent moisture intrusion for both the field joints and the factory joints. "
+3/27/1995,956,Exploration Systems,,FALSE," A second leak check port is required because of the third ""O"" ring that was added in the capture feature, and to provide a port to verify and seat the primary ""O"" ring. "
+3/27/1995,954,Exploration Systems,,FALSE," ""O"" rings become inflexible and do not properly seal at low temperatures. A heater is needed to raise the ""O"" ring temperature above that which would cause improper sealing. "
+3/27/1995,952,Exploration Systems,,FALSE," A capture feature is required on case-to-case solid rocket motor field joints to prevent joint rotation and subsequent deactivation of primary and secondary sealing ""O"" rings. "
+3/27/1995,948,Exploration Systems,,FALSE, A polysulfide adhesive will provide a much more secure and impenetrable insulation joint than the Zinc Chromate Putty used in 51-L and previous solid rocket motors. 
+3/27/1995,946,Exploration Systems,,FALSE, A pressurizing slot was designed and implemented in the case-to-nozzle joints in large solid propellant rocket motors between nozzle and case insulation joints. 
+2/13/1995,381,Exploration Systems," Although measurements at JPL suggested that the Voyager antenna system and its RF probe were not strongly affected by the building environment, the building environment at the test range location caused noticeable RF variations. When planning RF tests in different facilities, pathfinder tests should be conducted. Use RF probes with high directivity and shield the antenna from metallic surroundings that cause RF reflections. ",TRUE, RF testing can be strongly affected by the building environment. 
+2/1/1995,378,Exploration Systems," An essential in-flight test of the Viking Lander transmitter output could not be conducted due to the antenna's proximity to the Orbiter receiver antenna when Lander and Orbiter were mated. During the system design phase, system engineers must be sensitive to the various configurations to be encountered during the system test program. ",TRUE, System engineers cannot rely on the individual subsystem engineers to predict problems of their subsystems interacting with other subsystems during system tests. 
+2/1/1995,379,Exploration Systems, A violation of electrical interfacing and grounding requirements for Magellan resulted in substantial damage to the CDS analog telemetry circuitry. Care must be taken to ensure that design changes are properly reviewed. A formal project waiver of requirements should be obtained. ,TRUE, Violations of electrical interfacing and grounding requirements can have serious consequences and should not be undertaken lightly or without a formal project waiver. 
+2/1/1995,380,Exploration Systems," For Voyager and Viking, tape position error accumulation on the onboard spacecraft tape recorder required arduous workarounds to reset the position indicator. Specifically, up/down counters should be used in all bidirectional divide by stages whenever accurate position information is needed. ",TRUE, Tape position error accumulation on an onboard spacecraft tape recorder can require arduous workarounds to reset the position indicator. 
+1/30/1995,376,Exploration Systems," The Galileo spacecraft sustained water damage when its environmentally controlled shipping container was left open at the launch facility, allowing humid air to enter throughout a holiday weekend. Controlled environment containers should have continuously visible indicating recorders including an alarm feature. Novel operational modes require hazard analysis. ",TRUE," If the humidity inside the transporter had been monitored, the super saturation condition produced by 70 degree room air entering the 50 degree transporter environment would have been detected early and negligible damage to the spacecraft would have occurred. "
+1/25/1995,372,Exploration Systems," A JPL built balloon gondola free-fell from an altitude of 102,000 feet, destroying the payload. The gondola attachment fixture was designed to the requirements of the National Scientific Balloon Facility (NSBF), but the requirements were insufficient. 
+
+     The failure showed that FMECA analysis of flight hardware design is necessary to prevent excessive risk to high cost equipment. The hardware interface design requirements of a non-JPL organization may not be sufficient to safeguard JPL flight equipment.  
+     ",TRUE," Failure to conduct a Failure Mode Effects and Criticality Analysis (FMECA) of flight hardware design can result in excessive risk to high cost equipment.  
+
+        Hardware interface design requirements of a non-JPL organization may not be sufficient to safeguard JPL flight equipment.  
+      "
+1/25/1995,375,Exploration Systems," Viking adopted a simple single-number criterion for managing the risk in selecting &ldquo;optimum&rdquo; downlink science data rates, and used it consistently in sequence planning. Formal adoption by the project of a clear and consistent set of telecom link criteria is an effective strategy for risk management of varying telecom performance. ",TRUE, Formal adoption by the project of a clear and consistent set of telecom link criteria is an effective strategy for risk management of varying telecom performance. 
+1/25/1995,373,Exploration Systems," A bad weld in the cathode support structure of a Traveling Wave Tube Amplifier was postulated as the failure mode for degradation of the Mariner '71 downlink signal level. 
+
+     Adequately monitor the parts screening methods as well as contractor-specified manufacturing processes and test procedures, and improve contingency planning for the mission operations phase.  
+     ",TRUE,"Contractor quality assurance programs and process controls may not be adequate for providing flight components capable of meeting mission requirements.  
+
+        Potential partial failure modes during the mission operations phase require contingency planning.  
+      "
+1/25/1995,374,Exploration Systems," Because the MVM '73 project went to a degraded telemetry mode after failure of an onboard tape recorder, the project had to use DSN arraying schemes to provide higher mission telemetry data rates. The project and the DSN must foresee and plan the use of complex and previously unused capabilities sufficiently in advance to allow the proper analysis and configuration testing to be completed. ",TRUE, The use of DSN arraying schemes can provide higher mission telemetry data rates than might otherwise have been possible. 
+1/24/1995,369,Exploration Systems,,TRUE," A continuous software looping operation, or ""deadly embrace"", can occur undetected in the flight software. "
+1/24/1995,370,Exploration Systems," A power supply failure in the Drop Dynamics Module may not have occurred if the payload had been designed to JPL D-1489, &ldquo;Payload Classification Product Assurance Provisions.&rdquo; Design and test to standards consistent with the class of payload. 
+
+     This lesson is probably obsolete as D-1489 has been withdrawn and there are no longer payload classes.  
+     ",TRUE, Experiences such as the DDM power supply failure reinforce the need for design and testing to standards consistent with the class of payload. 
+1/24/1995,371,Exploration Systems," The SEASAT Spacecraft failed in orbit due to arcing between adjacent slip ring brush assemblies. It was discovered that the Agena bus had been substantially modified, but were treated as a heritage design not requiring requalification. Plans should be made early in the project to fully evaluate the heritage of previously used equipment. When conducting a FMECA on electrical components, electrical short failure modes should be considered. ",TRUE," ""Heritage"" hardware designs, previously flown on prior missions, can still contain design errors.  
+
+        Consideration of electrical shorts as a potential failure mode during FMECA of the power system is of critical importance.  
+      "
+1/13/1995,367,Exploration Systems, A Voyager post-fire squib short resulted in anomalous spacecraft telemetry signals. Design initiation and sensing circuits to prevent sneak paths. Recognize post-fire squib shorts as a &ldquo;normal&rdquo; occurrence to be taken into consideration when designing squib activation or sensing circuits. ,TRUE, Post-fire squib shorts can result in anomalous spacecraft telemetry signals. 
+1/13/1995,368,Exploration Systems," Galileo: The spare Galileo high gain antenna was damaged during modal, acoustic, and pyro shock testing, resulting in the revocation of the flight qualification of the spare. Be cautious of informal environmental testing to validate analytical models; it is typically conducted without the strict test controls and unambiguous assignment of responsibility that are required for testing of flight subsystems and spacecraft. ",TRUE, Informal environmental testing to validate analytical models is typically conducted without the strict test controls and unambiguous assignment of responsibility that are required for testing of flight subsystems and spacecraft. The use of flight or flight spare hardware as aids in developmental testing can result in increased risk to mission critical hardware. 
+1/13/1995,366,Exploration Systems, IRAS posed new challenges to contamination control due to the extremely low temperatures (3 degrees Kelvin) required to achieve successful low noise infrared signal detector operation in the focal plane assembly. The elaborate contamination control precautions listed in the lesson were believed critical to mission success. ,TRUE," When spacecraft design requires extremely low temperatures to achieve successful operation, elaborate contamination control precautions are critical to mission success. "
+12/22/1994,365,Exploration Systems, The system and end-to-end testing programs for the SEASAT synthetic aperture radar were impacted by schedule and cost constraints that contributed to failure to meet the primary mission objective. The development organization and the project should understand the consequences of an inadequate test program. The risks associated with any reduction of testing should be clearly documented and communicated to the project. ,TRUE," The testing phases of a project, both system and end-to-end, are usually impacted by both schedule and cost constraints, which may affect system performance or reliability. "
+12/22/1994,363,Exploration Systems," Four days before scheduled launch, routine tests on both Viking Orbiter receivers showed degraded performance. These results were believed to have been influenced by the test environment. When designing system and subsystem tests one should carefully consider the environment and its possible effects on the test results. ",TRUE," Environments can significantly influence hardware testing, resulting in degraded performance. "
+12/22/1994,364,Exploration Systems," Galileo design optimizations over the years exacerbated interactions between spacecraft power and the propellant tanks. During the cruise phase, high power and heat dissipation near the propellant tanks combined with an enhanced tank load to increase the tank pressure. 
+
+     A thorough analysis should be conducted before changes are made to one or more of the flight project elements that occur late in the development cycle or well into the test program.  
+     ",TRUE," Design of the various elements of a flight project (trajectories, science, mission operations, spacecraft design, spacecraft integration and test, etc.) is usually conducted in parallel. Although the designs are not conducted independently, there are always subtle but significant interactions which can occur within one of the elements or between several elements. "
+12/13/1994,356,Exploration Systems," A failure shortly after launch in the honeycomb shroud (nose cone) structure, due to a lack of proper venting, caused Mariner '64 mission failure. Analyze the pressure profiles that the honeycomb structure will be exposed to, and assure adequate venting under worst case environment conditions. ",TRUE," Internal pressures within honeycomb structures, in adverse environmental conditions, can build to a point sufficient to cause break up of spacecraft components. "
+12/13/1994,357,Exploration Systems," During the process of cleaning the Galileo slip rings, the PCA cleaning fluid obtained from JPL stores was found to contain chemical and particulate contaminants. When cleaning critical spacecraft components, the cleaning fluid should be carefully checked, not just visually, for chemical and particulate contaminants prior to use. ",TRUE," Cleaning fluid, obtained from approved sources and assumed to be ""pure"", may in fact contain chemical and/or particulate contaminants. "
+12/13/1994,358,Exploration Systems," A jitter in the solar array drive control loop during Venus mapping operations was caused by a deficiency, at oblique sun angles, in the algorithm that is used in Flight Software (FSW) to determine whether a solar panel position correction is required. Conduct thorough reviews to verify math models of hardware and to understand the implications of simplification of math models on performance in flight. Use finer resolution display scales to identify subtle instabilities. ",TRUE, Stability analyses for all geometries are an important part of attitude control hardware and software development and testing. 
+12/12/1994,355,Exploration Systems, The Galileo Photopolarimeter Radiometer subsystem cover was damaged on three separate occasions during assembly and test operations. Design all external areas of spacecraft flight hardware with consideration for assembly and handling operations: avoid sharp or pointed corners. Conduct physical surveys to identify hardware that is susceptible to handling damage. ,TRUE," When external areas of spacecraft flight hardware are not designed with regard for assembly and test operations, protective guards and other procedural safeguards can be inadequate to prevent damage to delicate hardware. "
+12/9/1994,354,Exploration Systems," The ATMOS instrument suffered damage to its optical system as a result of excess humidity due to a climate control failure. Provide indicators and alarms for environmentally sensitive hardware, and ensure that adequate safeguards are in place. ",TRUE," Failure of environmental control systems, especially when no fail-safe alarms have been incorporated into the system, can result in significant degradation of environmentally sensitive flight hardware. "
+12/9/1994,353,Exploration Systems," During a recalibration test of the Galileo NIMS flight instrument in a subsystem vacuum chamber, a facility failure subjected it to subjected to a temperature below its qualification limits. Subsystem facilities must be critically examined for the probability of any failure modes which may subject flight hardware to out-of-specification environments. Specification limits should be alarmed, and there should be straightforward safing procedures available to the operator. ",TRUE," Environmental test chambers are subject to several hazards not familiar to most practicing engineers and technicians. Cryogenics, vacuum systems, and thermal control systems all have serious potential safety risks if wrong materials, parts, or assembly techniques are used. Once incorporated, these improper elements may perform well for indefinite periods before bursting, leaking, or otherwise failing. They look ok, they work ok, but they aren't ok. "
+12/8/1994,352,Exploration Systems," During thermal-vacuum testing of Wide-Field/Planetary Camera, the sensitivity of the charge coupled device detectors decreased due to contamination. It was concluded that the standard criteria for the selection of organic and inorganic materials and associated processes with respect to outgassing are not acceptable with a new class of instruments. Each project with contamination-susceptible instruments should specify design criteria and should use decontamination procedures consistent with instrument-sensitivity objectives and project resources. ",TRUE, The standard criteria for the selection of organic and inorganic materials and associated processes with respect to outgassing are not acceptable with a new class of instruments -- those having susceptible optics and sensors operating at cold temperatures. 
+12/1/1994,841,Aeronautics Research,,FALSE," Availability estimation is a valuable design aid and assessment tool for any system whose operating profile allows for repair of failed units or components. These systems include those that operate on earth such as control centers, system test facilities, or flight simulation systems/facilities. Applying availability prediction and analysis techniques is also an extremely valuable process for guiding the development of maintenance concepts and requirements. "
+12/1/1994,891,Aeronautics Research,,FALSE," RCM is the best approach to developing the preventive maintenance program for a new system. It provides a step-by-step approach, prioritizes preventive maintenance tasks, and optimizes the repair cost. "
+12/1/1994,883,Aeronautics Research,,FALSE, An existing FCW system is tapped into to provide the heat exchange medium used for conditioning the hypergolic propellants to the acceptable limits for loading the Space Shuttle tanks. This eliminated a Freon conditioning unit that was previously installed at each propellant storage area thereby eliminating the associated operating and maintenance expenses. 
+12/1/1994,881,Aeronautics Research,,FALSE," Fiber optics can enhance the transmission quality, capacity, and safety environment of the system. The system designer should carefully weight the pros and cons of fiber optics vs. copper, microwave, or satellite for the transmission medium. Optical fiber, if cabled and installed properly, will last for years without any preventive maintenance. Reliability of optical cable is very good, and will enhance system availability, minimize downtime for maintenance, and reduce repair costs. "
+12/1/1994,879,Aeronautics Research,,FALSE, This technique is included in the Space Shuttle Ground Support Equipment General Design Requirements. Utilization of this technique can help prevent failures to other equipment and unnecessary downtime. 
+12/1/1994,882,Aeronautics Research,,FALSE," Rotating equipment (i.e., pumps, motors, compressors) are sensitive to the alignment to each other and to the smallest of changes due to operating conditions. Proper alignment is the largest factor in determining the life of bearings, seals and couplings. Even ""flexible"" couplings fail to completely absorb the additional stresses caused by misalignment. Misalignment causes these crucial components to become overloaded and break down prematurely, especially when operating at high speed. More conventional methods, such as using feeler gages and dial indicators are too inaccurate and require a complicated, time consuming alignment process. "
+12/1/1994,880,Aeronautics Research,,FALSE," Variable frequency drive systems are installed at the Shuttle launch pads at KSC. The system allows for a direct coupling between the main propulsion system liquid oxygen pump and drive motor. This eliminates the motor clutch system, a high maintenance item, and gaseous nitrogen lines used to purge the clutch system. "
+12/1/1994,878,Exploration Systems,,FALSE," During the Space Shuttle launch countdown, various computers and multilogic Command Control Units (CCUs) aboard the Orbiter await data feeds from Control Centers at both Kennedy and Johnson Space Centers. These CCUs activate Orbiter sensors that provide the launch team with vital data such as temperature and pressure readings. In addition to data, voice communications from JSC are transmitted directly to the Orbiter Flight Crew. 
+
+     The S-Band Monitoring System provides verification that these signals arrive at the launch pad error-free. It also provides the means to pinpoint the source of any errors, should they occur. "
+12/1/1994,870,Aeronautics Research,,FALSE, Maintenance effort and system downtime will be reduced by the implementation of this practice. 
+12/1/1994,890,Aeronautics Research,,FALSE," Failure to design-in and build-in reliability measures that have been found to create successful operation of the SSME HPOTP could result in less than nominal performance, loss of mission objectives, loss of the vehicle, or loss of life. More likely, subtle inactions or inattention to detail could cause lifetime of the turbopump to be reduced due to the discovery of flaws upon inspection and/or disassembly. "
+12/1/1994,839,Aeronautics Research,,FALSE," Operating in such a critical environment as outer space, astronauts' lives and mission success are dependent on the integrity of a system. Since time and resources are limited, the sooner failures can be accurately detected and a failed system repaired and recovered, the more likely crew survival rate and mission success are to be improved. "
+12/1/1994,838,Aeronautics Research,,FALSE," Because of increases in the size and complexity of software products, software maintenance tasks have become increasingly more difficult. Software maintenance should not be a design afterthought; it should be possible for software maintainers to enhance the product without tearing down and rebuilding the majority of code. "
+12/1/1994,837,Aeronautics Research,,FALSE, The reliability of a system's BIT can be determined in part by the number of false alarms it experiences. If the BIT can not accurately identify and report the occurrence of failures then the test has failed its mission. Testability must be treated with the same level of importance as other design disciplines. BIT reliability must be considered just as critical as any other performance requirement. A system cannot perform its mission if its components are constantly being removed for false maintenance. 
+12/1/1994,836,Aeronautics Research,,FALSE," Through the past decade of maintaining the SRB by refurbishing the structures and components, MSFC and its contractors have developed and implemented successful refurbishment specifications and procedures that have proven their effectiveness. For example, failure to adhere to the proven practice of refurbishing recovered hardware from salt water impact can result in unacceptable performance, scrapping of otherwise usable hardware, expenditure of unnecessary resources, and possible schedule delays. "
+12/1/1994,835,Aeronautics Research,,FALSE," Maintainability requirements for programs that require ground and/or in-space maintenance and anomaly resolution have to be established early in the program to be cost effective. Lack of management support to properly fund maintainability activities up-front can result in increased program risk. Including maintainability in the design process will greatly reduce the number of operational problems associated with system maintenance, improve the availability of the system, and reduce program costs. "
+12/1/1994,834,Aeronautics Research,,FALSE, Proper EVA design consists of working early and closely with the astronaut(s). Tasks and operations that are desired by the payload/system need to be reviewed early by the crew to ensure that the design is directed toward ease of EVA operability and maintainability. This will increase the probability of EVA mission success. 
+12/1/1994,833,Aeronautics Research,,FALSE," Equipment and crew interface testing in a simulated weightless environment at an early development stage in NASA programs is an accurate means of assessing hardware and tool design features and determining crew capabilities and requirements. While other forms of weightlessness simulations (e.g., parabolic flight, motion base, and computer models) have proven effective in specific applications, underwater simulations have proven particularly beneficial in hardware development, crew/hardware interface design, and operations planning, since they can accommodate a large worksite volume and extended test times. "
+12/1/1994,832,Exploration Systems,,FALSE," SRB refurbishment operations at KSC have resulted in the successful robotic insulation removal and application of 68 SRB aft skirts and other SRB elements. The facility schematic depicted in the description shows the SRB aft skirt in its most environmentally critical operation, insulation removal. This facility has been in operation for 5 years and, under routine maintenance, has been operational since its inception. Similar reliable operation has been experienced in the robotic application of insulation. "
+12/1/1994,831,Aeronautics Research,,FALSE, Decisions by program management to establish maintainability requirements early in the program will provide design impetus towards a system with higher operational availability at lower operational costs. Lower downtime and less complicated maintenance actions will be needed when maintenance is required. 
+12/1/1994,830,Aeronautics Research,,FALSE," Detection of anomalous behavior is critical during the operation of the Space Shuttle Main Engine (SSME). Increasing the detectability of failures during the steady-state operation of the SSME will minimize the likelihood of costly engine damage and maintenance. The average power signal algorithm is superior to the time series algorithm because more parameters contribute to the first simultaneous failure indication times. This increases the agreement between several parameters, thus increasing the likelihood that an engine anomaly has occurred. This method also reduces the number of false failure indications that can prematurely shut down the engine during testing or operation. "
+12/1/1994,829,Aeronautics Research,,FALSE," The development of the Space Station and other space systems (i.e., Space Station payloads and experiments) requiring long-term maintenance support dictates maintenance planning with emphasis on an understanding of the level of support required over a given period of time. The program is written specifically for analyzing availability, life cycle cost, and resource scheduling. A combination of exponential and Weibull probability distribution functions are used to model component failures, and ACARA schedules component replacement to achieve optimum system performance. The scheduling will comply with any constraints on component production, resupply vehicle capacity, on-site spares, crew manpower and equipment. "
+12/1/1994,724,Aeronautics Research,,FALSE," The need to identify quantity, cost, types of spares, and related servicing techniques required to sustain a space system mission capability is a prime driver in developing maintainability requirements for a space system at the onset of its design. A system maintenance concept should be developed to define the basis for establishing maintainability requirements and to support design in the system conceptual phase. The maintenance concept provides the practical basis for design, layout, and packaging of the system and its equipment. The number of problems associated with product support and maintenance of space systems can be reduced, if not eliminated, by applying the principles prescribed in the system's maintenance concept. "
+12/1/1994,855,Aeronautics Research,,FALSE, System gas must be conditioned before it is allowed to enter a new system. Installing filters immediately upstream of interfaces achieves this objective and also reduces dirt and water contamination that can interfere with component and system operation. 
+12/1/1994,849,Aeronautics Research,,FALSE," Predictive maintenance is a technique which checks the ""health"" of an item while it is operating using one or more sophisticated tools. The capabilities for predictive maintenance exists because of the availability of desktop computers, and the increased sophistication of equipment monitoring instruments. Too much or too little maintenance is avoided because the equipment is monitored on a regular basis providing trend data that can be used to project probable machine alarm dates. According to the Electric Power Research Institute (EPRI), the annual maintenance cost of such a program is reduced by 50% or more to between $7 and $9 per horsepower. "
+12/1/1994,848,Aeronautics Research,,FALSE," While this practice may seem to be one that would routinely be found in a maintenance program, in reality that's not so. All too often it is assumed that a new part is not only serviceable, but that it also meets the specification requirements as advertised. However, due to process variables, inspection techniques, and even fraud, this is not always the case. Example: in February 1992 KSC was alerted by NASA HQ/Code QR that the Nuclear Regulatory Commission working with the Inspector General was issuing a GIDEP/Alert on suspect circuit breakers. The situation described that a particular vendor took used circuit breakers from various manufacturers, refurbished the exterior only, falsified circuit breaker data and sold them as new components. These breakers had experienced premature trip, failure to trip (some breakers were not of proper amperage, i.e., mislabeled), and some had exploded. Had KSC not had practice GP-1002, ""Maintenance and Test Criteria for Circuit Breakers,""
+        in place, suspect circuit breakers could have easily been introduced into KSC's GSE and Facility equipment supporting the Space Shuttle Program. A maintenance program that provides for testing of circuit breakers prior to or upon installation will eliminate these types of failures. "
+12/1/1994,847,Aeronautics Research,,FALSE," The testing provides cost savings thru detection of leaks in air/fluid systems that are not normally audible. Compressors and fluid pumps may run at above normal requirements to make up for the loss caused by leaks creating unnecessary costs to power the equipment. Bearing problems can be evaluated over a period of time to detect progressive wear by changes in the ultrasound intensity level, thus protecting the bearing from sudden failure. Testing of electrical systems for sounds of arcing is easily accomplished enabling loose connections and openings to be found. Ultrasound testing is one of the least complex and less expensive maintenance detection methods, requiring a hand held detector and associated meter. "
+12/1/1994,846,Aeronautics Research,,FALSE," Ferrography is a wear particle analysis utilizing diagnostic and predictive techniques to evaluate the on-line condition of interacting lubricated or fluid powered parts or components. The use of Ferrography to evaluate a system's condition is to avoid time-consuming and potentially damaging hardware teardown and other destructive or interfering inspections. Ferrography can analyze a system's fluid to determine the type of wear it is experiencing; and, hence, predict the type of system failure and when the failure may occur. Ferrography can provide an established and easily performed inspection method for determining the health of a system and providing an early failure detection method. "
+12/1/1994,845,Aeronautics Research,,FALSE," Predictive maintenance is a condition driven preventive maintenance program. Instead of relying on industrial average-life statistics to schedule maintenance activities, predictive maintenance uses direct monitoring of the mechanical condition, system efficiency, and other indicators to determine the most efficient time to service a piece of machinery. Since mechanical systems or machines account for the majority of equipment, vibration monitoring is generally the key component of most predictive maintenance programs because it can provide the greatest benefits. Also, equipment down time is not required for vibration analysis to occur. "
+12/1/1994,844,Aeronautics Research,,FALSE," Color coding of the piping systems provides accurate and immediate visual and written identification of the contents within the pipe. This will provide greater safety and lessen the chances of confusion when working within an area with numerous piping systems. The markings on the outside of the pipe show content in color code, the flow direction, pressures and name of contents (See Figure 1). "
+12/1/1994,843,Aeronautics Research,,FALSE," Digital potentiometers should be considered in new design or major redesign of electronic systems where comprehensive system control, monitoring, configuration and calibration functions are desired (both locally and remotely). Standard devices (electromechanical potentiometers) are limited to manual control. System analysis will reveal strategic points for the inclusion of digital potentiometers to maximize utilization of their remote capabilities and superior noise characteristics. Substitution of standard variable resistance devices with digital potentiometer based circuits will result in enhanced capabilities while yielding reduced maintenance resource impact. "
+12/1/1994,842,Aeronautics Research,,FALSE, Maintenance effort and system downtime will be reduced by the implementation of common charge points for lubrication systems on mechnical ground support equipment. 
+11/14/1994,351,Aeronautics Research," During confidence testing of the MBB Galileo Ten Newton (N) Engine at MBB in November 1988, rapid increases in combustion chamber temperature (&ldquo;hot starts&rdquo;) were sometimes observed immediately after ignition of the engine. Examination of test data from the previous flight engine acceptance tests showed evidence of hot starts, but JPL had not witnessed these earlier tests. 
+
+     The lesson recommends several measures to assure that rocket engine development and qualification test instrumentation and test documentation are sufficient to detect and diagnose combustion instabilities.  
+     ",TRUE,"Lack of appropriate rocket engine development and qualification test instrumentation and test documentation can result in failure to detect and diagnose combustion instabilities.  
+
+        Bubbles saturated in the propellant can be a contributing factor to triggering rocket engine combustion instability.  
+      "
+11/14/1994,1604,Aeronautics Research," The F-18 High Alpha Research Vehicle has proven to be a useful research tool with many unique capabilities. Many of these capabilities are to assist in characterizing flight at high angles of attack, while some provide significant research in their own right. Of these, the thrust vectoring system, the unique ability to rapidly reprogram flight controls, the reprogrammable mission computer, and a reprogrammable On-Board-Excitation-System have allowed an increased utility and versatility of the research conducted. Because of this multi-faceted approach to research in the high angle of attack regime, the capabilities of the F-18 High Alpha Research Vehicle were designed to cover as many high alpha technology bases as the program would allow. These included aerodynamics, controls, handling qualities, structures, instrumentation, flight avionics systems, and propulsion. To achieve these goals, new capabilities were developed to enable this research to occur some were outstandingly successful; others were not.  
+     ",TRUE," 1. Use of an all-inclusive steering committee of all the stakeholders was an outstanding asset to the execution of the program. Being all inclusive meant all voices were heard, and even when unanimous decisions were not reachable, consensus was achieved, which maintained long term viability of the program and the project. Frequent communication was essential for this to happen within the steering committee.  
+      
+    2. Insufficient systems approach to the facilities, equipment, and planning occurred. Despite having extensive experience within the team with systems engineering, insufficient excess capacity was designed into the system because the entire lifecycle was not understood at inception. Requirements creep resulted in taking additional time, effort, and energy to incorporate research which was not mature at the start of the design.  
+      
+    3. Careful attention to risk management, both programmatic and technical, was a valuable asset in every phase of the program. In particular, sensitivity to the aircraft systems was paramount.  
+      
+    3a. In one instance, the aircraft's flight control computers failed to pass the Built-In Test on several occasions during the Day-of-Flight checks before passing the Built-In Test. As the pilot and crew continued the preparation for flight, several engineers in the control room stopped, took stock of the situation, and decided to cancel the mission until the reason for the failures was understood for the aircraft not passing the Built-In Test.  
+      
+    3b. In another instance, the Spin Recovery System (spin parachute) was reinstalled on the aircraft. The convention at that time was to fire the chute system from a benign flight condition as a system test. In most spin parachute systems, there is a small (but finite) potential for loss of the aircraft if the chute cannot be jettisoned. In the case of the F-18 HARV, the project team decided to fire the chute on the ground in a high-speed taxi test only (this was done twice) and to NOT fire the system in-flight as a system test. This reduced the risk exposure to the aircraft and flight crew, while still testing the system in a representative environment. It should be noted that two other high angle of attack programs decided to fire the spin parachute in-flight as a system test (X-29A and X-31A).  
+      
+    3c. As well as making careful estimates for improvements and changes, be sure to define, well in advance and with careful planning, the deletion of specific envelope expansion hardware (or safety hardware). This needs to be carefully coordinated as part of the continuing airworthiness and flight safety process. In the case of the F-18 HARV, after the envelope expansion was complete, the need for the spin recovery system and the emergency power systems (battery back-ups, another system that was tested and demonstrated in ground tests) could have been removed from the aircraft. A current example might be the Fight Termination System onboard a UAV, or a system augmentation of the Flight Termination System.  
+      
+    4. Testing, both ground and flight, always uncovers deficiencies and contingencies that need to be planned in. This is true in the integration phase, but also (and in particular with one-of-a-kind research systems) in the flight phase. One aspect of this was the use of carrying extra flight cards in the briefed cards for a mission. Even though we knew we could not achieve all the test points, excess cards were always carried. If one piece of instrumentation failed during a mission, then other cards could be substituted and a full mission could be flown. Up to 140% of a mission's cards would be carried on every mission. Having these contingencies in mind during planning is useful as well. If a particular flight control load developed unforeseen problems, a previous load (for which lower priority test points are still waiting to be flown) can be reloaded and lower priority missions continue while the unforeseen difficulties are resolved. The ground testing of the system wa greatly streamlined by the presence of the Hardware-in-the-Loop simulation residing at Dryden. The hardware simulation, being co-located with the aircraft and the research team, minimized impacts to the schedule.  
+      
+    5. Use of a Class B envelope for Class B software (flight control laws) is very useful. However, careful attention needs to be paid to the corners of the Class B envelope to assure that, truly, the envelope is Class B. In particular, the lower right corner (for static structural loads) and the upper right corner (for flutter), and the upper left corner (for aeroservoelastics). Class B software is quickly reconfigurable, and flexible.  
+      
+      
+     "
+11/11/1994,350,Aeronautics Research," After Galileo completed its second Earth flyby, communication signal levels received on Earth decreased and fluctuated unexpectedly. The cause was determined to be interference that was not detected during test because the test article was not consistent with the orbiter telecommunications functional requirements document. 
+
+     Recommendations involved use of concurrent engineering, verification of requirements compliance, updating of requirements documents based on hardware ECR's, post test evaluation of non-flight like characteristics, and assuring that hardware used for functional testing properly simulates the characteristics of the flight hardware.  
+     ",TRUE," Approval of hardware Engineering Change Requests (ECR's) which conflict with functional requirements documents, without concurrently updating the requirements documents, can result in subsystem functional testing which does not adequately simulate the characteristics of the flight hardware. "
+11/4/1994,362,Aeronautics Research," Loss of Magellan telemetry data was traced to moisture contamination due to a subcontractor's failure to use dry gas in the repackaging of an operational amplifier. Recommendations involve use of fault tree analysis, appropriate component screening and qualification, minimizing power cycling, and using dry gas. ",TRUE," In-flight failures cannot always be conclusively analyzed using available telemetry data.  
+
+        Failure to qualify electronic components and assembly capabilities to mission environmental requirements (including numerous power/thermal cycles) increases risk.  
+
+        Power cycling can create thermal cycle effects on internal failure mechanisms for electronic components and assemblies.  
+
+        Not using dry gas in the repackaging process can allow moisture to be trapped inside electronic components (hermetically sealed packages with a cavity) and possibly create pinholes if they don't already exist. Water can also evolve from thermally induced decomposition of the epoxy die attach. Moisture could then combine with the phosphate glass to generate corrosive phosphoric acid that can make the electronic component inoperative.  
+      "
+10/26/1994,349,Aeronautics Research," Early in the flight, Magellan REM temperatures exceeded predictions by over 20 degrees C. for certain spacecraft orientations. This necessitated changes in the mission profile. Subsystem thermal design modifications had been made based solely on analysis and implemented without any test verification. Design changes should be verified by test. The prime contractor should be responsible for thermal integration of the REM. The REM should be subjected to a series of solar thermal vacuum orientations at the subsystem level. ",TRUE,"Subsystem thermal design modifications based solely on analysis and implemented without any test verification can result in unexpected system level constraints.  
+
+        System thermal integration analysis and testing can function as an independent verification of subsystem thermal design.  
+      "
+10/25/1994,348,Aeronautics Research," An NSI may have shorted to chassis ground a few seconds after the SRM separation pyros were activated on Magellan, causing the loss of at least 2K of AACS memory RAM. Six recommendations are made for improving designs for electro-explosive-device initiation. ",TRUE," Based on Magellan analysis and test plus work recently performed in support of Mars Observer, the design for electro-explosive-device initiation may be inadequate. "
+10/21/1994,347,Aeronautics Research," When a contractor was absorbed by a second contractor early during the performance of the Mars Observer contract, the new contractor's management implemented methods that were not consistent with the original, agreed upon plans for integration and test. This created problems between JPL and the new contractor management. 
+
+     Reconfirm the contract should major changes occur in the contractors organization, document critical technical and programmatic agreements, and revalidate agreements when changes in key personnel occur.  
+     ",TRUE,"Problems can arise when major management changes occur at the contractor such as a corporate takeover.  
+
+        Agreements with key personnel are likely affected by major management changes.  
+      "
+10/21/1994,346,Aeronautics Research," Although inherited designs were to be used extensively, many Mars Observer spacecraft subsystems were so extensively modified over the 8-plus year development period that their heritage was lost. Perform inheritance reviews to span differences in design usages, ensure inheritance reviews include the assessments listed in the lesson, and perform delta reviews when major mission changes occur. ",TRUE," Reliance on heritage hardware/software in spacecraft design, without a thorough analysis of compatibility with mission requirements and required changes, can result in the use of design and components which are inappropriate for the mission. "
+10/10/1994,345,Aeronautics Research," From the analyses performed after the Mars Observer mission failure, it became apparent that the MO fault protection suffered from a lack of top-down system engineering design approach. Most fault protection was in the category of low-level redundancy management. It was also determined that the MO fault protection software was never tested on the flight spacecraft before launch. Design fault protection to detect and respond to excessive attitude control errors, use RCS Thrusters to control excessive attitude control errors, and always test fault protection software on the flight spacecraft before launch. ",TRUE,"MO fault protection did not detect and respond to excessive attitude control errors.  
+
+        RCS Thrusters were not used to correct excessive attitude control errors.  
+
+        Fault protection software was never tested on the flight spacecraft before launch.  
+      "
+10/7/1994,530,Aeronautics Research,,FALSE," Airborne CO flux measurements over the Yukon-Kuskokwim Delta (YKD) indicate low negative flux values over the coastal areas, while some positive fluxes were observed in the inland, sparsely forested regions. Analyses indicate the possibility of in situ photochemical destruction/production of CO. Tundra surfaces are estimated to be responsible for approximately 32% of the total deposition loss of O3 poleward of 60 degrees north. Data from the airborne O3 flux measurements made during this study indicate similar values of RC for the Alaskan North Slope (ANS) and YKD. "
+10/6/1994,529,Aeronautics Research,,FALSE," Although this fire happened some time ago, there were no personnel injuries, and damage was relatively minor, there were some significant lessons learned: 
+
+      
+        Sparks and hot chips generated during the cutting operations apparently came to rest in a hidden area, created a hot spot, and, approximately 90 minutes after cutting operations were completed, the hot spot ignited into a full fire. Fire watches normally cease one hour after cutting operations are ended. Under certain circumstances, such as those found in this situation, existing procedures may be inadequate to insure no fire hazard remains. Therefore, each job should be individually evaluated to make sure the fire watch surveillance period is sufficient.  
+
+        Security measures should cover entry of emergency personnel to controlled/limited access areas. Unnecessary delays can significantly increase fire damage.  
+
+        In this incident, use of material stored in ready access for the covering of electronic equipment in the event of fire prevents water damage. Readiness of this type of material could have benefit in other facilities should a fire occur.  
+
+        Standpipe system bosses in the Building 1268A complex weren't long enough for the most effective use in fighting this fire. Subsequently, an additional 50' of hose has been added to each standpipe location.  
+      "
+10/5/1994,344,Aeronautics Research,,FALSE," Porous materials, such as wood, when in contact with solid propellants may absorb/acquire the hazardous properties exhibited by the solid propellant. "
+9/29/1994,343,Aeronautics Research," Following the loss of the Mars Observer spacecraft, simulations showed that a postulated propellant breach would have caused angular accelerations that could have inhibited downlink and caused multi-axis gyro saturation. In this case, fault protection features of flight software would have inhibited all momentum unloading and prevented the stabilization of the spacecraft. 
+
+     Ensure that fault protection takes proper action regardless of spacecraft state. Fault responses should not be allowed to interrupt critical activities.  
+     ",TRUE, Inappropriate fault protection actions can be as hazardous as the failure the system was designed to protect against. 
+8/25/1994,526,Aeronautics Research,,FALSE," In the magneto-optic imaging instrument, a distribution of strong magnetic field exists in between two conducting sheets, while no measurable field strength exists above the magnetic current sheet. "
+8/25/1994,527,Aeronautics Research,,FALSE, A symmetrically smooth time base for celestial photography can now be produced for standard 60 Hz power. 
+8/23/1994,523,Aeronautics Research,,FALSE," Model integrity criteria should be developed and appropriate publications updated to require design consideration of blade loss, encapsulating parts, accounting for dynamic loads and/or instabilities, and the identification of dynamic characteristics by analysis and/or tests. "
+8/23/1994,524,Aeronautics Research,,FALSE," It is impossible to predict torque value on screws after repeated applications of ""a thread-locking compound"". "
+8/23/1994,525,Aeronautics Research,,FALSE," There are two lessons learned as a result of this event: 
+
+      
+        Thoroughly inspect, prior to acceptance, work done by outside contractors.  
+
+        Secure tubing in support channels by clamping on both sides of the fittings.  
+      "
+9/15/1993,306,Aeronautics Research," During installation of the Pressure Release Devices (PRD) to the Galileo's RTGs, the four screws anchoring each PRD failed to pull snug to the RTGs. A year later, a screw attaching a PRD to the Ulysses RTG seized and sheared. The problem was attributed to inexperience with the helicoil locking feature. Avoid use of helicoils, and provide detailed assembly procedures for locking devices. ",TRUE," Helicoil locking devices can cause problems in applications requiring repeated engagements of the locking feature.  
+
+        Potential problems, associated with temporary screw insertions into helicoils, can be minimized if shorter lubricated screws are used to assure minimal penetration of the locking mechanism.  
+      "
+8/4/1993,320,Aeronautics Research,,FALSE," Training and mission simulation for crew and ground support personnel relating to on-orbit payload operation should be continued on future missions to enhance the efficiency of on-orbit operations. The training simulators and mission simulations should be of high fidelity. The number and duration of mission simulations should be based upon the length and complexity of the mission. A minimum of 2 simulations 3 to 4 weeks apart, one to include science team members, should be required. "
+8/3/1993,317,Aeronautics Research,,FALSE, Sneak circuit analysis exposes problems that may escape detection during system testing. 
+8/3/1993,316,Aeronautics Research,,FALSE, Frequent mating/demating of electrical connectors often result in bent pins. 
+8/3/1993,313,Aeronautics Research,,FALSE, Splicing of electrical cables reduces the length and may increase the probability of cable malfunction. 
+7/30/1993,444,Aeronautics Research,,FALSE, Differently keyed connector halves can be partially mated and cause arcing and short circuiting. 
+7/29/1993,295,Aeronautics Research,,FALSE," Burrs left remaining during manufacturing processes can become loose particles, migrate into meshing machine parts, and cause operational failures to critical components (orbiter hydraulic pump). "
+7/28/1993,334,Aeronautics Research,,FALSE, Small changes create large effects when a system is operating near a stability boundary and has a large energy source to feed the instability. 
+7/26/1993,473,Aeronautics Research,,FALSE, Batteries stored on a charger can explode during use if overcharged. 
+7/24/1993,15,Aeronautics Research,,FALSE, Failure to call out proper torque requirements for fittings with different sizes caused a hydraulic leak in a critical orbiter system. 
+7/23/1993,294,Aeronautics Research,,FALSE," When studs sized to fit into tapped holes are difficult to install, the use of smaller sized studs in test facility assemblies can cause test rig failure. "
+7/17/1993,240,Aeronautics Research,,FALSE, Maintenance programs that include disassembly and reassembly of test cell components require a check out procedure to establish work completion before initiating a test run. 
+7/15/1993,291,Aeronautics Research,,FALSE, Design of dust covers for ventilation systems which do not require their removal before hardware installation can result in equipment damage due to interruption of critical cooling air. 
+7/13/1993,286,Aeronautics Research," Contrary to design assumptions and the original flight plan, a decision was made to energize the Galileo Near Infrared Mapping Spectrometer (NIMS) cover heater prior to ejecting the covers. The cover failed to deploy until the heater was switched off. 
+
+     The lesson offers recommendations that would deter untested flight sequences and incomplete reviews of mission operations flight rules.  
+     ",TRUE,"Untested flight sequences frequently result in unexpected events.  
+
+        Incomplete reviews of mission operations flight rules can cause problems.  
+
+        Problems are created due to the loss of information in the transfer of responsibility from design to operations.  
+      "
+7/13/1993,289,Science," Although shuttle astronauts observed Magellan solar panel deployment, a microswitch failed to provide a &ldquo;panels-latched&rdquo; indication. Ensure that telemetry transducers measure the desired function-- not just a related function. Microswitch design should account for the need for overtravel in the actuation stroke. Perform a FMECA early in the spacecraft life cycle. ",TRUE," Microswitches on Magellan were mounted such that they would detect the position of the solar panels (as opposed to the status of the latching mechanism). As a result, they were just a position indicator and not a ""panels latched"" indicator.  
+
+        A marginal microswitch actuation stroke plus zero-g effects can result in failure of the microswitch to close.  
+
+        Failure Mode Effects and Criticality Analysis (FMECA) is a worthwhile activity and can result in problem workarounds being built into flight sequences ahead of time.  
+      "
+7/12/1993,283,Science," Magellan electronics bays ran 20 degrees C. hotter in flight than was anticipated. Contaminants were believed to have off-gassed in flight and accumulated on the thermal tiles, thus increasing solar absorptance. Evaluate vacuum outgassing procedures, and demonstrate system operation at temperatures beyond those expected in flight. For missions to inner planets, the spacecraft system thermal control design should minimize or avoid solar exposure on critical thermal control surfaces. ",TRUE,"Effects of contamination on critical thermal control surfaces can be more severe than previously assumed, resulting in higher than expected flight temperatures.  
+
+        The Mariner 10 thermal control concept (a sun pointing spacecraft with a large sun blocking thermal shade) would result in fewer thermal issues than the transient attitude thermal design employed on Magellan.  
+      "
+7/12/1993,278,Science, Planning for the two-spacecraft Voyager mission did not consider the extra time needed to arrange for the allocation of Deep Space Network (DSN) coverage for the operation of both spacecraft. Lead times for project and institutional planning must be considered at the time the project mission operations plan is being developed. ,TRUE, Significant lead time is required for planning the allocation of Deep Space Network (DSN) facilities in support of spacecraft operations. 
+7/12/1993,284,Science," Voyager 2 suffered two potentially mission-catastrophic in-flight faults that were recoverable due to the availability of spare spacecraft hardware that was used to test workaround solutions. Maintain a functionally identical, properly configured, test bed of spare spacecraft hardware and associated support equipment, enabling detailed analysis of in-flight faults and candidate corrective actions. ",TRUE, The availability of spare spacecraft hardware and associated ground support equipment can mean the difference between restoring a lost spacecraft capability or flying with a reduced or lost capability due to the inability to adequately correct a fault. 
+7/9/1993,276,Science," Contractor proposals for digital processors were rejected for cost reasons in favor of upgrading a unit under development by JPL. However, the use of R&amp;D equipment resulted in unacceptable performance and reliability. 
+
+     When funding constraints require consideration of trade-offs or use of R&amp;D equipment, evaluate the reliability and capability of the equipment.  
+     ",TRUE, The Ground Data Processor is a key element in any end-to-end data system such as a Synthetic Aperture Radar system. 
+7/8/1993,237,Science,,FALSE, Fail-safe position of control valves in supply lines must be set correctly to prevent damage to pressure vessels. 
+7/1/1993,168,Science,,FALSE, Small amounts of hydrogen (0.027 lbs) and air (0.26 lbs) at 350 psia and an ignition source can cause detonation and damage in a confined area. 
+6/30/1993,264,Science,,FALSE, Unauthorized modifications to a wet pipe fire suppression system without depressurization and safing caused damage to the system which led to a discharge of fluid and a close call for equipment damage. 
+6/30/1993,265,Science,,FALSE, Dousing of a cotton hot tar mop with water is insufficient for preventing spontaneous ignition and fire. 
+6/29/1993,263,Science,,FALSE, Emergency planning that does not include compatibility of extinguishants (including water) with hazardous materials can cause delays in fire fighting and additional losses. 
+6/28/1993,262,Aeronautics Research," The magnitude of both the real-time cruise activities and the work required to perform advanced planning for future activities, such as encounter, landing site certification, test and training, and orbit insertion activities during the Viking mission were significantly underestimated and required an unplanned organizational change during the cruise operations. When spacecraft mission encounter and post-encounter planning are not completed prior to launch, separate organizations should be established for conducting the cruise activities and accomplishing the encounter planning. ",TRUE," When an organization conducts real-time operations and future planning concurrently, all resources tend to be used in support of real-time activities. "
+6/21/1993,333,Aeronautics Research,,FALSE," If data receipt of diagnostic data is delayed because downlink channels are not available, the ability to determine recovery action is severely compromised. This reveals a lack of systems engineering and application FMEA. "
+6/21/1993,228,Aeronautics Research,,FALSE," Vacuum chambers can inadvertently be overpressurized, causing damage to the furnace and injury to personnel. "
+6/21/1993,226,Aeronautics Research,,FALSE, Nylon seats deteriorate when used in valves controlling oxygen gas systems and can cause fires. 
+6/14/1993,211,Aeronautics Research,,FALSE, Electrical contactors on heater circuits can fuse shut unless a proper back-up design is incorporated. 
+6/14/1993,330,Aeronautics Research,,FALSE, Voids in bond lines can result in debonding if a pressure differential is created between the void and the external environment. 
+6/11/1993,329,Aeronautics Research,,FALSE," The potential exists for contamination on rocket motor case walls, which can interfere with bonding of insulation. "
+5/24/1993,318,Aeronautics Research,,FALSE, Flight assignment of experiments without appropriate development maturity often results in severe impacts to the experiment and the integrated payload. 
+4/15/1993,314,Aeronautics Research,,FALSE," Silicone, being colorless and fluidlike, can easily contaminate equipment if not subjected to thorough fabrication controls. Silicone contamination can interfere with bonding. "
+3/8/1993,259,Aeronautics Research,,FALSE, Vacuum detection alarm systems are not sufficient for monitoring air-cooled flight or prototype equipment 
+3/5/1993,1090,Aeronautics Research," An apparent momentary dropout of the Command Destruct Receiver initiated an abort during the launch of a Pegasus vehicle. 
+
+     The lesson offers 10 recommendations (dealing mostly with mission rules, launch constraints, and communications) to prevent similar incidents in the future and improve overall range operations. ",FALSE," The Review Committee concluded that the primary cause for this incident was that the Range Safety abort was rescinded without on net authority and range awareness. The principal contributing factors to this incident were the off net communications; and confusion that resulted from having two separate operational nets, the lack of sufficiently detailed and attended prelaunch briefings, and the lengthy process of communicating with the B-52. 
+
+     The Review Committee during its investigation has compiled a list of findings and conclusions. They have been grouped in the following categories: 
+
+      
+        Abort Process  
+
+        Mission Rules  
+
+        Communications  
+
+        Launch Day Roles and Responsibilities  
+
+        Mission Planning and Preparation  
+      
+
+     ABORT PROCESS 
+
+     FINDINGS 
+
+      
+        An abort was initiated by the WFF/RSO, the abort was rescinded by the contractor TC without on net authority and range awareness.  
+
+        The B-52 was required to reduce altitude just prior to the CDR dropout abort call.  
+
+        WFF, Eastern Range (ER), Merritt Island Tracking Station (MILA) and Bermuda Tracking Station (BDA) responded in a manner which allowed continued flight of the Pegasus after launch  
+
+        There was no procedure in the WFF/OSD or the Contractor Launch Checklist (LC) that detailed the procedure for rescinding an abort.  
+      
+
+     CONCLUSIONS 
+
+     From the above findings, the Committee reached the following conclusions: 
+
+      
+        The contractor TC method of rescinding the abort was inadequate.  
+
+        Fin battery actuation was a consideration in the decision to rescind the abort.  
+
+        The altitude problem may have contributed to the confusion concerning the abort.  
+
+        Capability to destruct the Pegasus was maintained throughout the flight.  
+
+        Quick positive reaction by all supporting personnel allowed this flight to continue to a successful conclusion.  
+      
+
+     MISSION RULES 
+
+     FINDINGS 
+
+      
+        An apparent dropout of a Flight Termination System (FTS) CDR occurred. This apparent dropout required an abort of the launch according to the mission rules.  
+
+        Not all key personnel were aware of all mission rules. Additionally, in some cases, key personnel had different interpretations of mission rules.  
+      
+
+     CONCLUSIONS 
+
+      
+        There were misunderstandings among key personnel concerning the mission rules. Lack of awareness and misinterpretation of mission rules may have contributed to this incident.  
+
+        The FTS CDR dropout mission rule produced a high risk of mission abort. The complex routing of the data stream (vehicle/aircraft to ground, ground to Time Division Multiple Access (TDMA) satellite, satellite to ground) and the amount of support equipment necessary to provide this data (decoms, bit syncs, cabling) produced a high probability of data loss not related to CDR health.  
+      
+
+     COMMUNICATIONS 
+
+     FINDINGS 
+
+      
+        No single Intercom Channel (IC) was understood by all key participants as the primary launch net.  
+
+        The WFF/RSO chain of communication to the B-52 required 3 intermediaries.  
+
+        The configuration of communication equipment used by NASA 1 and the contractor TC was operationally awkward.  
+
+        Formal intercom net protocol was not consistently used.  
+      
+
+     CONCLUSIONS 
+
+      
+        The lack of a single IC for all critical calls that was monitored by all key personnel contributed to confusion and to the range's lack of knowledge of impending launch.  
+
+        The chain of communication between the WFF/RSO and the B-52 contained too many elements.  
+
+        Improved intercom net discipline may have prevented misunderstandings leading to the unplanned launch.  
+
+        The contractor TC had expected to receive Range abort calls from the WFF/RCO on IC 4. The fact that the abort was only transmitted on IC 1 by the WFF/TD and heard off net by the contractor TC caused the contractor TC to question the abort call and delayed the passing of the abort to the B-52.  
+      
+
+     LAUNCH DAY ROLES AND RESPONSIBILITIES 
+
+     FINDINGS 
+
+      
+        There were no clear lines of authority and responsibility for launch decisions.  
+
+        The OSC/TC rescinded the abort command without proper on net authority and range awareness.  
+      
+
+     CONCLUSIONS 
+
+      
+        The primary cause of this incident was that the OSC/TC rescinded the abort without on net authority and range awareness. The lack of clear lines of authority and responsibility contributed to his/her actions.  
+
+        The limited abort scenarios exercised during the dress rehearsal were not sufficient to identify all authority and responsibility conflicts.  
+      
+
+     MISSION PLANNING AND PREPARATION 
+
+     FINDINGS 
+
+      
+        No pre-launch briefing was held at which all key participants reviewed mission rules, constraints, and procedures.  
+
+        The WFF/Operations and Safety Directive (OSD) and the Contractor's Launch Operations and Mission Constraints (LOMC) document contained conflicting information that was not completely integrated in the mission planning process.  
+
+        A complete dress rehearsal was not conducted for this mission.  
+      
+
+     CONCLUSIONS 
+
+      
+        The pre-mission planning and preparation process was inadequate for a mission of the scope and complexity of the Pegasus / SCD-1 launch.  
+
+        Conflicting Information in the various organizations' documentation may have contributed to this incident.  
+
+        The lack of a pre-mission briefing attended by all organizations that reviewed roles, responsibilities, mission rules/constraints, IC assignments, and the launch decision process contributed to this incident.  
+      "
+1/27/1993,249,Aeronautics Research,,FALSE, Ruptured pressure vessels caused by overpressurization may produce projectiles and impact crew and/or rupture other pressure vessels. 
+11/18/1992,220,Exploration Systems,,FALSE, The expansion of component overhaul and repair facilities at the launch site and in nearby areas has increased efficiency and saved money. 
+11/18/1992,221,Exploration Systems,,FALSE, Delays in accomplishing failure analysis causes excessively slow turnaround times for many repairable components. 
+11/18/1992,215,Exploration Systems,,FALSE," Inadequacies in the processing and inspection of o-rings for the SRM may affect sealing capabilities.  
+
+        A lack of standardization in the SRM o-ring material formulations and processing may result in application problems.  
+      "
+11/18/1992,217,Exploration Systems," During propellant loading operations for the Galileo retro propulsion module prior to launch, an oxidizer loading flex line developed a small leak. The leak was caused by an electrostatic charge generated by the flow of the non-conductive oxidizer through the teflon flex line, discharging to the wire mesh covering. 
+
+     Investigate the suitability of using flex lines not susceptible to this type of failure. Verify that electrostatic buildup can be controlled or contained. Consider using new flex lines when hazardous loading operations are performed. Determine maximum flow rates that will prevent electrostatic discharges.  
+     ",TRUE," Even if a propellant loading flex line has successfully passed proof and leak tests, a leak can develop when oxidizer is flowing through it, as a result of electrostatic discharge through the wall of the line. "
+11/17/1992,218,Exploration Systems,,FALSE, The mission control computer support system is out of date and does not meet current human interface system technology standards. 
+11/17/1992,212,Exploration Systems,,FALSE, The current ad hoc approach of treating each computer upgrade as an independent action is proving to be unsatisfactory. 
+11/16/1992,443,Exploration Systems,,FALSE, Personnel injury and hardware damage can result if inaccurate drawings are used for preparation of power switching instructions. 
+11/13/1992,209,Exploration Systems,,FALSE," The SSME telemetry system provides only approximate time correlation between multiple data systems, resulting in timing uncertainties. "
+11/13/1992,442,Exploration Systems,,FALSE, Research and/or operation engineers may overlook important test set-up operations unless they are included and emphasized in the pre-run checklist. 
+11/13/1992,210,Exploration Systems,,FALSE, Injury from electrical shock and/or hardware damage can result if a circuit is energized while working on it. 
+11/12/1992,1187,Exploration Systems,,FALSE," An SPC Investigation Team and an independent NASA Investigation Board were unable to determine the exact cause of the close call. The closest duplication of the event was obtained from the Malfunction Laboratory tests of the crane metadyne and the crane 4NCR relay contacts. A metadyne is an externally driven D.C. generator, which amplifies an operator initiated control signal to regulate trolley speed. When closed, the 4NCR relay contacts provide the control signal to the metadyne. 
+
+     Other crane components that could have caused an increase in trolley speed were removed from crane #1 and tested in the Malfunction Laboratory. None exhibited abnormal results. The Board recognized that operator actions could have produced the observed segment motion. However, based on testimony of the two operators, the investigation board concluded that the operators most likely did not induce the rapid unexpected movement of the segment. 
+
+     Metadyne output voltage changes with no change to the input voltage were observed on numerous occasions during crane tests as well as during Malfunction Laboratory testing. These output changes could be induced by misaligning brushes, lightly tapping the brushes, injecting cleaning stone silica or cleaning cloth fibers into the commutator/brush area, or elevating humidity and temperature. Further the crane metadynes are operated at 2 percent of output capacity, which exacerbates these output instabilities. Review of text books and technical papers, and conversations with technical experts indicate that metadyne systems are susceptible to erratic outputs. The voltage output changes observed in the lab were significant in magnitude and, based on analysis, were large enough to produce the maximum calculated trolley velocity. 
+
+     On September 14, 1992, in VAB High Bay #2, crane #2 bridge (same design as crane #1) experienced erratic acceleration, other unexpected responses, and eventually stopped completely. Troubleshooting determined that the control voltage input to the metadyne system was zero. Relay contacts that provide this control voltage were cleaned and crane operations returned to normal. Additional Malfunction Laboratory tests were performed on the power supply relay contacts and potentiometers. The relay contacts should have a resistance in the milliohm range but laboratory measurements were unstable and in the range of 100 ohms to 3 gigaohms. High resistance of the power supply contacts on the night of the close call could have occurred and, after a few minutes, the high resistance could have returned to normal. This would result in a sudden increase of trolley speed from a reduced to a full FINE speed condition of approximately 25 feet per minute. This very closely duplicates the timing
+    and speeds that occurred during the close call. 
+
+     In summary, the exact cause of this crane close call is not known. The most likely causes were determined to be an erratic operation of the metadyne caused by cleaning material contamination of the brush/commutator area or an excessive resistance increase of the control system relay contacts that suddenly returned to its proper value. 
+
+     The contributing cause to the close call was determined to be that metadyne output varies with constant input. 
+
+     Because metadynes are susceptible to unexpected changes in output, careful consideration of design and operating controls is required. Proper relay contact selection is especially important in a low current control system. "
+11/12/1992,206,Exploration Systems,,FALSE," With no PTA indicator to detect flight hardware anomalies, the IUS status will be uncertain and may result in undetected propellant leaks. "
+11/12/1992,207,Exploration Systems,,FALSE," The organizational system of making, archiving, and reporting environmental conditions is disorganized and responsibilities are untraceable. "
+11/10/1992,203,Exploration Systems,,FALSE, Failure to consider expected releases of fluids into the external environment as part of an integrated materials compatibility assessment led to leakage from system tubing. 
+11/10/1992,208,Exploration Systems,,FALSE," Recent over-pressurization of a Solid Rocket Booster (SRB) hydraulic tank has been attributed to an improperly written Operational Maintenance Instruction (OMI).  
+
+        The use of task teams at Kennedy Space Center appears to be working well.  
+      "
+10/23/1992,179,Exploration Systems,,FALSE, The full scale hot fire testing of the SRM's was performed with the motors in the horizontal position rather than in flight attitude. 
+10/23/1992,180,Exploration Systems,,FALSE, Measurement of two used SRM case segments indicated tang and clevis sealing surfaces increased in diameter beyond design limits. 
+10/23/1992,178,Exploration Systems,,FALSE, Mandatory inspection points were inadvertently eliminated during STS 51-L o-ring processing. 
+10/22/1992,171,Exploration Systems,,FALSE," Space limitations inside the TSM preclude installation of OSHA required handrails, kickplates, and ladders. "
+10/22/1992,170,Exploration Systems,,FALSE, Failure of one or more components (1S8-4S8) in the closed position would prevent the limit switches from stopping downward travel of the buckets. 
+10/19/1992,500,Exploration Systems,,FALSE, Torque is not a sufficient measure to assure that joints are assembled with the proper preload. 
+10/16/1992,167,Exploration Systems,,FALSE," Use of temporary platforms provides inadequate access to FRCS cavity for trunnion fitting maintenance, and may result in injury/damage. "
+10/15/1992,162,Exploration Systems,,FALSE," A potential exists for a high pressure fluid leak, over-pressurization, improper stud tensioning, and/or flexhose rupture and whipping. "
+10/13/1992,159,Exploration Systems,,FALSE, Use of the east swing platform hoist trolley for lifting LRU's provides inadequate clearance/may result in flight hardware damage/personnel injury. 
+10/9/1992,158,Exploration Systems,,FALSE, Platforms 11A-1 and 11A-6 cause an interference problem when the PBD's are opened/closed during aft propulsion system (APS) servicing. 
+10/8/1992,155,Exploration Systems,,FALSE, Lack of positive stops on the OPF platform 13 tip extension provides the extension with the capability to roll off the end of the platform. 
+10/8/1992,154,Exploration Systems,,FALSE, The pneumatic and fliud quick disconnects are the same size and located close enough to easily allow misconnection within APU carrier plates. 
+10/8/1992,150,Exploration Systems,,FALSE, Structural failure of pod bellows or other assembly components could cause onboard reactants to be contaminated with gaseous helium and particulates. 
+10/5/1992,139,Exploration Systems,,FALSE, An undetected accumulation of toxic/flammable vapors in orbiter compartments after landing may cause damage/loss of orbiter/personnel. 
+10/5/1992,143,Exploration Systems,,FALSE," Failure of wire ropes, winch components, or operator error during hoist operation with ECP/ESP could result in damage/loss of flight hardware/GSE. "
+10/5/1992,142,Exploration Systems,,FALSE," An oxygen analyzer system failure may cause personnel to unknowingly enter or work in an oxygen deficient atmosphere, resulting in asphyxiation/death. "
+10/5/1992,141,Exploration Systems,,FALSE," Failure of the RTGF crane electrical components, due to an internal malfunction, increases the potential for damage to load and/or crane. "
+10/5/1992,140,Exploration Systems,,FALSE," Failure of a critical item lifting device (crane, hydraset, or lifting beam) may result in serious injury/loss of personnel or flight hardware. "
+10/2/1992,146,Exploration Systems,,FALSE, Lack of relief valve isolation has resulted in excessive toxic vapor releases to the environment. 
+9/24/1992,133,Exploration Systems,,FALSE," Cooling system flexhoses that supply the orbiter avionics system are too long, allowing hose kinking to occur. "
+9/18/1992,39,Exploration Systems,,FALSE, Helium leak detector roughing pump failure during mass SPEC operation could cause contamination of SSME oxygen lines. 
+9/18/1992,38,Exploration Systems,,FALSE," Failure to establish controlled venting of PRSD tanks prior to exceeding tank relief pressures, could cause inadvertant venting and danger of fire. "
+8/27/1992,111,Exploration Systems,,FALSE, Quick disconnects utilized for providing gasses to the space shuttle main engine (SSME) are identical to each other and can be cross-connected. 
+8/12/1992,120,Exploration Systems,,FALSE,"Shocks/vibrations induced into a magnetic liquid level gauge may affect the position of individual flag indicators and lead to erroneous readings.  
+
+        Fluid contamination may cause a restriction of the float assembly movement within the chamber, leading to an inaccurate reading.  
+
+        Fluid in the LT having a SG which is less than the float assembly is weighted for, indicates a fluid level lower than actual, and may lead to a tank overfill.  
+      "
+8/11/1992,102,Aeronautics Research,,FALSE," Failure to establish a preventative maintenance program for two 6000 psi shutoff valves resulted in a close call when they began leaking  
+
+        Failure to use valves capable of withstanding system pressures resulted in a ""close call"" when a valve exploded.  
+      
+      
+      "
+8/10/1992,101,Aeronautics Research,,FALSE," Lack of a safety cut-out switch on the proof load test fixture resulted in a ""close call"" when a ""D"" ring was distorted (over pulled). "
+8/10/1992,119,Exploration Systems,,FALSE,"Documentation lacking cross references between serial numbers and model numbers may result in inadequate configuration or missing hardware.  
+
+        Improper work authorization contributed to the unauthorized removal of six attachment bolts from the SRM aft segment lifting bracket.  
+      
+      
+      "
+4/9/1992,1186,Exploration Systems,,FALSE," It is the opinion of this mishap investigation team that the primary cause of this mishap was structural failure of the crane at the turret/mast interface, most probably due to fatigue cracking of the welded area in question. This area had cracked at some previous time and there is evidence of continued crack generation resulting in diminished load lifting capability of the crane. When the switch plate kits were loaded, their weight would not normally have exceeded the lifting capacity of the unit but did exceed its diminished capability. The result was a catastrophic failure leading to personnel injury and equipment damage. 
+
+     Contributing to the failure cause was possible momentary overloading of the crane. No data was discovered that indicated the crane had been overloaded and in fact, the design of the hydraulic system precludes that from happening. No evidence was found, however, of operator training beyond on-the-job experience and that lack of proper training could have resulted in poor operating technique imparting momentary loads well in excess of crane capability, setting up a progressive fatigue cracking mechanism. The weld area in question had cracked at some time prior to this failure and there was evidence of attempts to repair cracks. The workmanship of this repair was extremely poor and failed to correct the problem. The fatigue cracking continued to progress to the point of failure. 
+
+     Also noted during this investigation were deficiencies in meeting contractual and OSHA/ANSI requirements. No evidence was found of daily, weekly, or monthly safety inspections of the equipment or contractually required safety reports. No evidence was found of an annual inspection for safety and operability. No evidence was found that the operators had received any training beyond on-the-job instruction on operation of the unit. The injured employee was to be transported to the hospital by a NASA helicopter but this wasn't done due to a lack of proper transport capability of the helicopter. "
+12/27/1991,51,Exploration Systems,,FALSE," Adequate physical safeguards do not exist to prevent the inadvertent removal of dry wells/transducer installations from hazardous systems.  Failure to test for hazardous levels of MMH within the sump tank, resulted in the release of contaminated waste water to the environment.  
+      "
+7/29/1991,17,Aeronautics Research,,FALSE," A reassembly error (a dislocated wire pinched by the uninsulated area of a harness clamp) causing a short in a fuel line heater and a poorly located cut off switch can combine to cause a control failure, and lead to potentially catastrophic damage. "
+7/28/1991,16,Aeronautics Research,,FALSE," An incorrect installation of a critical component (orbiter main propulsion system check valve spring) can cause additional stresses, lead to a material failure, and result in costly launch delays. "
+12/15/1990,449,Aeronautics Research,,FALSE, Excess wear led to migration of conductive contaminates into electrical contacts. High (off limits) temperatures were required to open contacts. 
+9/3/1990,1199,Exploration Systems,,FALSE," The primary and major contributory causes of the mishap were:  
+     
+
+      
+        Failure to remove the beam. If the standard sequence of access platform removal is followed, the beam is one of the last components to come out. Also, the beam cannot be safely removed until either the 50-1 or 50-2 entry level platforms are removed. Since other scheduled work was in process, requiring the entry level platforms, the beam was temporarily and intentionally left resting against the 1307 bulkhead for approximately 40 minutes. Due to the elapsed time and remote location of the beam, plus reduced lighting, the beam was forgotten and overlooked.  
+
+        The check and balance by the technician and the Quality Control inspector failed. The technician and inspector were using a job card matrix, consisting of prerecorded platform component numbers which had been initially recorded during platform component installation. The removal check-off and accountability operation was being performed at floor level as opposed to the more traditional method of verification where the platform components are removed and verified as they cross the access ' door thresholds. The rationale for this change consisted of three considerations: (A) the bay was destined for maintenance rather than early roll-in of the next orbiter and, therefore, the platform components had to be completely removed from the work site and stowed; (B) the area where the platform components would have been inventoried and temporarily stowed was congested; (C) an opinion existed that a better check-off and accountability could be accomplished at the floor level rather
+      than at the 50-1 and 50-2 access door exits.  
+      
+    The team responsible for job card matrix execution and ultimate removal verification consisted of one technician and one inspector. Several technicians were transporting the platform set assemblies from the 50-1 and 50-2 doors to the floor. As the technician read component part numbers, the quality inspector checked off the pre-recorded matrix. There were reported confusion factors consisting of multiple numbers on components and faded numbers; however, there was no practical correlation between these factors to explain why an error in accounting for the platform components occurred. For an unknown reason, the G070-502677-001 beam was counted as having been removed, and therefore, no subsequent search for it was made.  
+      
+    A probable scenario for the human error follows: piece number G070-502777-001 was mistakenly checked off the inventory list as G070-502677-001. After almost the entire inventory of platforms had been completed, the Tech and QC on the OPP floor started to review the inventory list to account for several items that had not yet been verified. Piece number G070-502777-001 was still not verified. In reviewing the assemblage of components, the Tech and QC found G070-502777-001 in the equipment storage area and marked it off the inventory list. Thus, component G070-502777-001 was probably counted twice as two pieces of equipment. This scenario was not presented by the Tech or QC, but is the most probable sequence of events that the Board feels occurred.  "
